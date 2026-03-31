@@ -22,7 +22,7 @@ export default function LoginForm() {
 
   const onSubmit = async (data) => {
     try {
-      const res = await axios.post("http://localhost:5000/api/auth/login", data);
+      const res = await axios.post(`${import.meta.env.VITE_API_URL}/api/auth/login`, data);
       
       localStorage.setItem("token", res.data.token);
       localStorage.setItem("user", JSON.stringify(res.data.user));
@@ -38,7 +38,7 @@ export default function LoginForm() {
   const handleGoogleSuccess = async (res) => {
     try {
       const { name, email, sub: googleId } = jwtDecode(res.credential);
-      const response = await axios.post("http://localhost:5000/api/auth/googleLogin", { name, email, googleId });
+      const response = await axios.post(`${import.meta.env.VITE_API_URL}/api/auth/googleLogin`, { name, email, googleId });
 
       localStorage.setItem("token", response.data.token);
       localStorage.setItem("user", JSON.stringify(response.data.user));
