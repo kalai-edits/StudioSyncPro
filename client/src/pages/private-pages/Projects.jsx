@@ -25,8 +25,8 @@
         
       
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center my-6 sm:my-10 gap-4">
-          <h1 className="text-2xl sm:text-3xl font-bold">All Projects</h1>      
-          <h1 className="bg-cyan-500 hover:bg-cyan-400 text-black font-bold py-2.5 px-6 rounded-xl transition-all w-full sm:w-auto shadow-[0_0_10px_rgba(6,182,212,0.3)] hover:shadow-[0_0_20px_rgba(6,182,212,0.6)]">
+          <h1 className="text-2xl sm:text-3xl self-center font-bold ">All Projects</h1>      
+          <h1 className="bg-cyan-500 hover:bg-cyan-400 text-black hidden   font-bold py-2.5 px-6 rounded-xl s transition-all md:w-45 w-40 sm:w-auto shadow-[0_0_10px_rgba(6,182,212,0.3)] hover:shadow-[0_0_20px_rgba(6,182,212,0.6)]">
           📂 All Project
           </h1>
         </div>

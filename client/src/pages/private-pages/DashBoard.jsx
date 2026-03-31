@@ -40,7 +40,7 @@ export default function Dashboard() {
       
       {/*  HEADER SECTION */}
       <header className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-10">
-        <h1 className="text-3xl font-bold tracking-tight">Dashboard Overview</h1>
+        <h1 className="text-3xl font-bold tracking-tight self-center">Dashboard Overview</h1>
         <div className="bg-gray-900 border border-gray-800 px-4 py-2 rounded-xl text-sm text-gray-400 flex items-center shadow-lg">
           <FaRegCopyright className="mr-2 text-white" /> Studio SyncPro
         </div>

@@ -31,8 +31,8 @@ export default function Team() {
       {/* HEADER & BUTTONS */}
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 my-6 sm:mb-10">
         <div>
-          <h1 className="text-2xl sm:text-3xl font-bold tracking-tight">Team Management</h1>
-          <p className="text-gray-500 text-xs sm:text-sm mt-1">Manage editors and assign tasks</p>
+          <h1 className="text-2xl sm:text-3xl font-bold tracking-tight self-center ml-10 ">Team Management</h1>
+          <p className="text-gray-500 text-xs sm:text-sm text-center mt-1">Manage editors and assign tasks</p>
         </div>
         
         {/* Mobile - full width, Pc  auto-width */}

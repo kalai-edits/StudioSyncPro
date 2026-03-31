@@ -22,7 +22,7 @@ export default function Clients() {
         </div>
         <button  onClick={()=>{
           setAddClient(true)
-        }} className="bg-cyan-500 mt-10  hover:bg-cyan-400 text-black font-bold py-2.5 px-5 rounded-2xl transition-all">
+        }} className="bg-cyan-500 mt-10  hover:bg-cyan-400 text-black font-bold py-2 px-5 rounded-2xl transition-all">
           + Add New Client
         </button>
       </div>
