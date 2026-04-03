@@ -14,6 +14,10 @@ Studio Sync Pro is an enterprise-grade Studio Management System built with the M
 - **Backend:** Node.js, Express.js, MongoDB, Socket.io.
 - **Deployment:** Render (Backend), Vercel (Frontend).
 
+## App Live Demo Link 
+
+- Live Demo Link : `https://studio-sync-pro.vercel.app/`
+
 ## ⚙️ Local Setup
 1. Clone the repo: `git clone https://github.com/kalai-edits/StudioSyncPro.git`
 2. Install Client deps: `cd client && npm install`
