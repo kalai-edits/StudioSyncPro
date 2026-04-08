@@ -1,29 +1,53 @@
-# 🦋 Studio Sync Pro
+# 🚀 Studio-SyncPro
 
-Studio Sync Pro is an enterprise-grade Studio Management System built with the MERN stack. It streamlines creative workflows, team collaboration, and project tracking in real-time.
+![MERN Stack](https://img.shields.io/badge/MERN-Stack-blue?style=for-the-badge&logo=mongodb)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
 
-## 🚀 Key Features
-- **Real-time Collaboration:** Instant group messaging powered by Socket.io.
-- **Project Tracking:** Comprehensive dashboard with revenue analytics (Recharts).
-- **Role-Based Access:** Secure authentication for Admins and Editors.
-- **Dynamic Team Status:** Live activity monitoring (Online/Busy/Offline).
-- **Invoice & Client Management:** Automated tools for creative professionals.
+Studio-SyncPro is a robust, full-stack SaaS (Software as a Service) platform designed to streamline management workflows and enhance team collaboration. Built with the MERN stack, it features real-time communication, role-based access control, and seamless payment integrations.
 
-## 🛠️ Tech Stack
-- **Frontend:** React (Vite), Tailwind CSS, Zustand, Socket.io-client.
-- **Backend:** Node.js, Express.js, MongoDB, Socket.io.
-- **Deployment:** Render (Backend), Vercel (Frontend).
-
-## App Live Demo Link 
-
-- Live Demo Link : `https://studio-sync-pro.vercel.app/`
-
-## ⚙️ Local Setup
-1. Clone the repo: `git clone https://github.com/kalai-edits/StudioSyncPro.git`
-2. Install Client deps: `cd client && npm install`
-3. Install Server deps: `cd server && npm install`
-4. Set up `.env` in the server folder with your `MONGO_URL` and `JWT_SECRET`.
-5. Run dev: `npm run dev`
+🔗 **Live Demo:** [Studio-SyncPro](https://studio-sync-pro.vercel.app/)
 
 ---
-*Developed with ❤️ by Kalai*
+
+## ✨ Key Features
+
+* **Real-Time Collaboration:** Instant chat and updates powered by `Socket.io` for seamless team communication.
+* **Role-Based Access Control (RBAC):** Secure authentication and authorization using `JWT` to manage different user roles effectively.
+* **Workflow Management:** Tools built to streamline SaaS platform operations and team task management.
+* **State Management:** Efficient and lightweight global state management using `Zustand`.
+* **Responsive UI:** Modern, clean, and mobile-responsive interfaces crafted with `Tailwind CSS`.
+* **Payment Integration:** Secure payment routing and handling mechanisms.
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend:**
+* React.js
+* Tailwind CSS
+* Zustand (State Management)
+* Socket.io-client
+
+**Backend:**
+* Node.js
+* Express.js
+* MongoDB (Mongoose)
+* Socket.io
+* JWT (JSON Web Tokens) for Authentication
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to set up the project locally on your machine.
+
+### Prerequisites
+Make sure you have [Node.js](https://nodejs.org/) and [Git](https://git-scm.com/) installed on your machine. You will also need a MongoDB database URI.
+
+### 1. Clone the repository
+```bash
+git clone [https://github.com/kalaiselvan-mern/StudioSyncPro.git](https://github.com/kalaiselvan-mern/StudioSyncPro.git)
+cd StudioSyncPro
